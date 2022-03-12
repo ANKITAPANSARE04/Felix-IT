@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Design</title>
+
+        <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: :center;
+}
+
+.div1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  width: 100%;
+ text-align: center;
+}
+.div2{
+    float: left;
+    padding: 10px;
+    height: 300px;
+    width: 15%;
+   text-align: center;
+   width: 10%;
+    }
+.div3{
+    float: left;
+    padding: 20px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left:19px;
+    height: 300px;
+    width: 70%;
+   text-align: center;
+
+}
+ .div4{    float: left;    padding:5px;    height: 300px;    width: 15%;   text-align: center;}
+.div5{
+    padding: 20px;
+    height: 200px;
+    width: 50%;
+    clear: both;
+    float: left;
+   text-align: center;
+}
+.div6{
+  padding:20px;
+    float: left;
+}
+.div7{
+  padding-top: 10px;
+  padding-bottom: 10px;
+    clear: both;
+   text-align: center;
+ }
+.div8{ background-color: #cc66ff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    height: 100px ;
+   text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightgray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:lightgreen;
+}
+
+.active {
+  background-color: gray;
+}
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.contain {
+  padding: 2px 16px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: lightgrey;}
+
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #002244;
+  color: white;
+}
+/* container for div7*/
+
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 10px;
+}
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container img {
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+.footer-basic .copyright {
+  margin-top: :15px;
+  padding-bottom: 10px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+        </style>
+    </head>
+    <body>
+      <div class="div1">      <h1 style="align:center">COMPANY TITLE!!</h1>      </div>
+      <div class="div1">      <ul>
+          <li><a  class="active"  href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Open</a></li>
+          <li><a href="#">Contact</a></li>
+  <li style="float:right"><a  href="#about">SignUp Now!!</a></li>
+      </ul></div>
+      <div class="div2">
+
+<table id="customers" style="width:100%">
+  <tr>
+    <th>MoreInfo..</th>
+  </tr>
+  <tr>
+    <td>Information1</td>
+  </tr>
+  <tr>
+    <td>Information2</td>
+  </tr>
+  <tr>
+    <td>Information3</td>
+  </tr>
+  <tr>
+    <td>Information4</td>
+  </tr>
+  <tr>
+    <td>Information5</td>
+  </tr>
+  <tr>
+    <td>Information6</td>
+  </tr>
+  <tr>
+    <td>Information7</td>
+  </tr>
+</table>
+
+
+      </div>
+      <div class="div3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2mMRoLIOtTVdaCdQeJrMF8GbLR6f0cvQlw&usqp=CAU" width=500px></div>
+      <div class="div4">
+
+    <div class="card">
+      <img src="img_avatar.png" alt="Avatar" style="width:100%">
+      <div class="contain">        <h4><b>John Doe</b></h4>
+        <p>Architect & Engineer</p>
+        <p>Contact Us On:
+          ##$$##$$</p>
+      </div>
+    </div>
+       </div>
+      <div class="div5">
+      <p style="align:center">
+        <h3>Understand your customers</h3><br><br>
+        Before you even start to create content for your website, you should consider who your buyer personas are.
+        Think about what their motivations are, what problems they are trying to resolve, what their objections to purchase might be and what exactly it is that will make them choose you.
+        HubSpot offers you a great template to organise your customer research and create your own buyer personas.
+      </p> </div>
+      <div class="div6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCZlf5lc5tX-0gY-y94pGS0mQdL-D0lCH2OQ&usqp=CAU" width=450px>       </div>
+      <div class="div7">
+        <div class="container">
+    <img src="img_avatar.png" alt="Avatar" style="width:90px">
+    <p><span>Chris Fox.
+      <br>CEO at Mighty Schools.<br>
+    John Doe saved us from a web disaster.</span></p>
+  </div> </div>
+  <div class="footer-basic">
+  <footer>
+
+      <p class="copyright">Company Name © 2018</p>
+  </footer>
+</div>
+
+    </body>
+    </html>

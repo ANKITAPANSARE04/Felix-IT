@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="icon" href="images/login1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <style>
+      *{
+          margin: 0px;
+          padding: 0px;
+          box-sizing: border-box;
+          font-family: 'Baloo Bhai 2', cursive;
+      }
+
+      body{
+          background-image: url("logbg.jfif");
+          background-repeat: no-repeat;
+          background-size: cover;
+          color: #808080;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+      }
+
+      .form{
+          border: 2px solid #0000CD;
+          height: 27rem;
+          width: 30%;
+          border-radius: .3rem;
+          margin-top: 10%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background-color: #F5F5F5;
+      }
+
+      .feilds{
+
+          padding-top: 5rem;
+      }
+
+      h1{
+          color:#37d49f;
+      }
+
+      .loginimg{
+
+          height: 5rem;
+          /* border: 1px solid green; */
+          margin-top: -2.5rem;
+      }
+
+      form input{
+
+          background-color: transparent;
+          border: none;
+          border-bottom: 2px solid #0000CD;
+          outline: none;
+          font-size: 1.2rem;
+          color: black;
+          margin-bottom: 2rem;
+      }
+
+      form label{
+
+          font-weight: bold;
+          font-size: 1.2rem;
+      }
+
+      #sub{
+          color: darkgray;
+          border: 2px solid #0000CD;
+          height: 3rem;
+          width: 8rem;
+          border-radius: 1rem;
+          transition: all ease-in-out .5s;
+      }
+
+      #sub:hover{
+
+          background-color:#37d49f;
+          transition: all ease-in-out .5s;
+          color:black;
+      }
+    </style>
+</head>
+<body>
+    <div class="form">
+      <!--   <img src="images/login.png" alt="login image" class="loginimg"> -->
+        <h1>Login</h1>
+        <form>
+            <div class="feilds">
+                <label for="Email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="abc@example.com" required><br>
+
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password" required><br>
+
+                <input type="submit" value="Login" id="sub">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+	*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#B0C4DE;
+    color: initial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contactform{
+    background-color: #fffafa;
+    border: 1px solid rgb(190, 190, 190);
+    box-shadow: 5px 5px 10px;
+    border-radius: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+label{
+
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#comment{
+
+    border: 1px solid #000080;
+    height: 60px;
+    border-radius: 5px;
+}
+input{
+
+    border: 1px solid #000080;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+input:focus{
+
+    outline: none;
+}
+
+.gender{
+
+    margin: 15px;
+}
+
+.sub{
+    height: 30px;
+    width: 100px;
+    color: #000080;
+}
+/*table{  width:50px;}*/
+td {
+vertical-align: top;
+text-align: left;
+padding: 7px;
+}
+.sub:hover{
+
+    background-color:#000080;
+    color: whitesmoke;
+    transition: all ease-in-out .5s;
+}
+    </style>
+    <title>HTML/CSS-Form</title>
+</head>
+<body>
+    <h1><u>Forms input</u></h1>
+
+    <div class="contactform">
+
+        <form >
+<table style="bgcolor:gray">
+  <tr>
+    <td><label for="fname">Full name:</label></td>
+    <td><input type="text" name="fname" id="fname" placeholder="Enter your first name" required><br><br></td>
+  </tr>
+  <tr>
+    <td><label for="email">Email:</label></td>
+    <td><input type="email" name="email" id="email" placeholder="Enter your email" required><br><br></td>
+
+  </tr>
+  <tr>
+    <td><label for="password">Password:</label></td>
+    <td><input type="password" name="password" id="password" placeholder="Enter your password" required><br><br></td>
+
+  </tr>
+  <tr>
+  <td>  <label for="mobile">ProofID's: </label></td>
+  <td>
+        <table>
+        <tr><td><input type="checkbox" name="vehicle2" value="Car">  AdharCard</td><td><input type="checkbox" name="vehicle2" value="Car"> VotingCard</td></tr>
+        <tr><td><input type="checkbox" name="vehicle2" value="Car">  PanCard</td><td><input type="checkbox" name="vehicle2" value="Vehicle">  Birth Certificate</td></tr>
+        </table>
+  </td>
+  </tr>
+  <tr>
+    <td><label for="city"> City:</label></td>
+    <td> <input list="city" name="city">
+      <datalist id="city">
+          <option value="pune">
+          <option value="mumbai">
+          <option value="nagpur">
+          <option value="karad">
+      </datalist><br><br></td>
+  </tr>
+  <tr>
+    <td>  <label for="Gender">Gender:</label></td>
+    <td><input type="radio" name="gender" value="male" id="Gender" class="gender">Male
+    <input type="radio" name="gender" value="female" id="Gender" class="gender">Female
+    <input type="radio" name="gender" value="female" id="Gender" class="gender">Other <br><br></td>
+  <tr>
+  </tr>
+    <td>  <label for="date">Date:</label></label></td>
+    <td><input type="date" name="date" id="date" required><br><br></td>
+  <tr>
+  </tr>
+    <td><label>Address:</label></td>
+    <td><textarea name="comment" id="comment" cols="30" rows="5"></textarea><br><br></td>
+  </tr>
+
+  <tr><td><label>Upload CV:</label> </td><td><input style="border:none" type="file"></td></tr>
+  <tr><td><label>Work Enthusiasm: </label> </td><td>  <input type="range" name="" value=""></td></tr>
+
+
+
+  <tr>
+    <td > </td>
+    <td><input type="submit" value="Send" class="sub"></td>
+
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+</body>
+</html>
