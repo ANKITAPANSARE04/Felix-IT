@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Bootstrap -->
+    <!-- Account toggle --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- testimonial purpose -->    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="Images/yellowmango.jpg">
+    <title>MangoHouse</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    
+    <!-- Navigation start -->
+    <div class="topnav" id="myTopnav">      
+      <img id="logo1" src="Images/MangoHouse.png" alt="Logo" height="39" width="215">
+      <img id="logo2" src="Images/yellowmango.jpg" alt="" height="39" width="49">
+
+      <div class="nav-mid">
+        <a href="./Index.html">Home</a>
+        <a href="./About.html">About Us</a>
+        <a href="./Product1.html">Products</a>
+        <a href="./Contact.html">Contact Us</a>
+      </div>
+
+      <div class="nav-right">
+      
+        <!-- search toghle -->
+        <span class="searchbar">
+          <img  src="Images/search.png" class="search" aria-hidden="true" alt="" height="25" width="25" > &emsp;
+          <!-- <i class="fa fa-search" aria-hidden="true" height="30" width="30"></i> -->
+           <div class="togglesearch">
+              <input type="text" placeholder=""/>
+              <input type="button" value="Search"/>
+          </div>
+        </span>
+      <!-- serch toggle -->
+      <a href="./cart.html"> <img  src="Images/cart.png" alt="" height="25" width="25"> </a> &emsp;
+        <!-- Account toggler -->
+        <div class="dropdown">
+          <span onclick="myFunction()" class="dropbtn">Account⯆</span>
+          <div id="myDropdown" class="dropdown-content">
+          <a href="./signin.html"><button >Login</button></a><button>Create Account</button><br>
+          <a href="#home" ><img alt="" src="Images/dropdown_heart.PNG"> &nbsp;      Wish List</a><br>
+          <a href="#about"><img alt="" src="Images/dropdown_avatar.PNG">&nbsp;     My Account</a><br>
+          <a href="#contact"><img alt="" src="Images/dropdown_folder.PNG">&nbsp;     My Order</a>
+          </div>
+        </div>	
+      </div>
+    </div>
+    <!-- Navigation end -->
+    <!-- mobile navigation start -->
+    <div  class="icon">
+    <span class="toogler">
+      <img  src="Images/responsiveBar.PNG" class="togglebar" alt="" style="max-width: 30%;" > &emsp;
+        <div class="responsive_menu"  style="display:none;">
+          <ul>
+            <li><a href="./Index.html">Home</a></li>
+            <li><a href="./Product1.html">Buy Products</a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Why MangoHouse </a></li>
+            <li><a href="./Product1.html">Order Mangoes</a></li>
+            <li><a href="#">Gifting Solutions</a></li>
+            <li><a href="#">Mango Facts</a></li>
+            <li><a href="./Contact.html">Contact Us</a></li>
+            <li>    <!-- Account toggler -->
+              <div class="dropdown_mini">
+                <a onclick="myFunctionmini()" class="dropbtn">Account ⮟</a>
+                <div id="myDropdown_mini" class="dropdown-content2">
+                <a href="./signin.html"> <button>Login</button></a><button>Create Account</button><br>
+                <a href="#home" ><img alt="" src="Images/dropdown_heart.PNG"> &nbsp;      Wish List</a>
+                <a href="#about"><img alt="" src="Images/dropdown_avatar.PNG">&nbsp;     My Account</a>
+                <a href="#contact"><img alt="" src="Images/dropdown_folder.PNG">&nbsp;     My Order</a>
+                </div>
+              </li></ul>
+       </div>
+      </span>
+    
+    <div class="responsive-nav-mid">
+    <img id="logo1" src="Images/MangoHouse.png" alt="Logo" height="39" width="215">
+    <img id="logo2" src="Images/yellowmango.jpg" alt="" height="39" width="49">
+    </div>
+         <div class="responsive-righ-nav">
+        <span class="searchbar">
+          <img  src="Images/search.png" class="search" aria-hidden="true" alt="" height="25" width="25" > &emsp;
+            <div class="togglesearch">
+              <input type="text" placeholder=""/>
+              <input type="button" value="Search"/>
+          </div>
+          </span>
+          <a href="./cart.html"><img  src="Images/cart.png" alt="" height="25" width="25"> </a> &emsp;<br>
+        </div>             
+  </div>   
+<!-- Section1 -->
+<div class="home_s1">
+  <img src="Images/homeleaf-1.png" alt="" class="homeleaf1">
+  <img src="Images/mango1.png" alt="" class="mango1">
+  <img src="Images/homeleaf-2.png" alt="" class="homeleaf2">
+  <div class="home_s1_text">
+    <p>THIS SUMMER GET<br><strong style="font-size:70px;">35%</strong><b class="txtmango">OFF</b></p><br> <h6> FREE DELIVERY</h6>
+    <img src="Images/line.png" alt="" width="30">
+    <img src="Images/line.png" alt="" width="30">
+    <img src="Images/downarrow.png" alt="" width="10">
+    <img src="Images/line.png" alt="" width="30">
+    <img src="Images/line.png" alt="" width="30"><br>
+    <p>Authentic Devgad Alphonso</p><small>This Season, pluck your own 'original' Alphonso Mangoes.</small><br>
+    <button class="gray_btn">ORDER NOW</button></div>
+</div>
+
+
+<!-- section-2  -->
+<div class="home_s2">
+  <h1>RATNAGIRI DEVGAD ALPHONSO MANGOES TO YOUR DOORS</h1>
+  <p>Premium Quality Grade Devgad & Ratnagiri Alphonso Mangoes straight from the farmers...<br>
+    Now delivering at Pune, Mumbai, Bangalore and Mangalore.</p>
+    <img src="Images/homeleaf1.png" alt="" class="homeleaf3">
+</div>
+
+
+<!-- section-3 -->
+<div class="home_s3">
+  <div class="row">
+    <div class="column" >
+      <img  src="Images/homeS3plat.png" alt="">  
+      <p><h6 class="txtleaf">DIRECT FROM FARMS</h6>
+      Once harvested they are sent to you fresh in 2/3 days through Air shipping</p>
+    </div>
+    <div class="column" >
+      <img  src="Images/homeS3tube.png" alt="" >  
+      <p> <h6 class="txtleaf">CHEMICAL FREE</h6>
+      We Provide 100% Carbide & Chemical Free and Naturally Rippend</p>
+    </div>
+    </div>    
+  <div class="row">
+    <div class="column" >
+      <img  src="Images/homeS3medal.png" alt="" >  
+      <p><h6 class="txtleaf">A+ EXPORT QUALITY</h6>
+      Once harvested they are sent to you fresh in 2/3 days through Air shipping</p>
+    </div>
+    <div class="column" >
+      <img  src="Images/homeS3box.png" alt="" >  
+      <p><h6 class="txtleaf">SAFE PACKING</h6>
+      We Provide 100% Carbide & Chemical Free and Naturally Rippend</p>
+    </div>
+    </div>
+  <div class="row">
+      <div class="column" >
+        <img  src="Images/homeS3mango.jpg" alt="" >  
+        <p><h6 class="txtleaf">AUTHENTIC ORIGINAL ALPHONOSO'S</h6>
+        Once harvested they are sent to you fresh in 2/3 days through Air shipping</>
+      </div>
+      <div class="column" >
+        <img  src="Images/homeS3covid.png" alt="">  
+        <p><h6 class="txtleaf">CONTACTLESS HOME DELIVERY DUE TO COVID-19</h6>
+        We Provide 100% Carbide & Chemical Free and Naturally Rippend</p>
+      </div>
+    </div>  
+</div>
+
+<!-- section-4 (4A)-->
+<div class="home_s4">
+  <h1>DELICIOUS BEST SELLERS</h1>
+  <h2 class="txtmango">30%OFF</h2> 
+  <div class="product_collection">
+
+      <div class="card"> 
+          <h5 class="card-title text-center">KING A1+</h5>
+              <!--<span class="heart"></span>--><br>  
+              <img  class="card-img-top " src="Images/mangopair.png" alt=""> 
+              <p class="card-text"><strong>Faruit Weight-300+gms</strong><br>
+              Fruit Grade- "King A1+" Premium  Authentic Devgad Alphonso Mangoes 1 Dozen<br></p>
+              <table>
+                  <tr><td><strong class="txtdanger">₹1,750.00</strong> <strong>₹2,5000.00</strong></td>
+                  <td><img class="cartshare" src="Images/share.png" alt=""></td></tr>
+                  <tr><td><img class="cartstar" src="Images/5star.png" alt="">  </td>
+                  <td><img class="cartadd" src="Images/addtocart.png" alt=""> </td></tr>
+              </table>
+      </div>
+
+      <div class="card"> 
+          <h5 class="card-title text-center">KING A1+</h5>
+              <!--<span class="heart"></span>--><br>  
+              <img  class="card-img-top " src="Images/mangopair.png" alt=""> 
+              <p class="card-text"><strong>Mango pulp (Coming soon)</strong><br>
+              Fruit Grade- "King A1+" Premium  Authentic Devgad Alphonso Mangoes 1 Dozen<br></p>
+              <table>
+                  <tr><td><strong class="txtdanger">₹1,750.00</strong> <strong>₹2,5000.00</strong></td>
+                  <td><img class="cartshare" src="Images/share.png" alt=""></td></tr>
+                  <tr><td><img class="cartstar" src="Images/5star.png" alt="">  </td>
+                  <td><img class="cartadd" src="Images/addtocart.png" alt=""> </td></tr>
+              </table>
+      </div>
+
+      <div class="card"> 
+          <h5 class="card-title text-center">KING A1+</h5>
+              <!--<span class="heart"></span>--><br>  
+              <img  class="card-img-top " src="Images/product2_cart1.png" alt=""> 
+              <p class="card-text"><strong>Mango Jam (Coming Soon)</strong></p>
+              <table>
+                  <tr><td><strong class="txtdanger">₹1,750.00</strong> <strong>₹2,5000.00</strong></td>
+                  <td><img class="cartshare" src="Images/share.png" alt=""></td></tr>
+                  <tr><td><img class="cartstar" src="Images/5star.png" alt="">  </td>
+                  <td><img class="cartadd" src="Images/addtocart.png" alt=""> </td></tr>
+              </table>           
+      </div>
+      
+  </div>  
+      <br><br>
+
+
+  <!-- section-5 (4B) -->
+  <h1>THIS IS HOW WE STANT OUT FROM THE REST!</h1><br>
+  <div class="home_s5">
+    <div class="row">
+      <div class="column1">
+      <ul><li><a href="#" class="list_item_active">Strict packaging methods</a> </li>
+        <li>Quality over quantity</li>
+        <li>Harvested at right time</li>
+        <li>Owned farms not sourced</li>
+        <li>Legacy over years</li>
+        <li>Served many corporates</li>
+        <li>Can take volume orders</li>
+        <li>Price efficiency</li>
+        <li>Damage returns policies</li></ul>
+      </div>
+      <div class="column2" ><img alt="" src="Images/mangobox.png">   <span class="list_link_text">We follow strict packing our Fruit as we want it to reach you in perfect state</span>
+      </div>
+    </div>
+  </div>
+
+  <img src="Images/homeleaf1.png" alt="" class="homeleaf4">
+  <!-- section-6 -->
+  <section class="testimonials">
+    <div class="container">
+ 
+      <div class="row">
+        <div class="col-sm-12">
+          
+          <div id="customers-testimonials" class="owl-carousel">
+ 
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-lg p-4 bg-white rounded1">
+                <img src="https://annedece.sirv.com/Images/pexels-andrea-piacquadio-762020%20(1).jpg" alt="">
+                <h5 class="pb-2 pt-3">Ximena Vegara</h5><br><br><img alt="" src="Images/5star.png" class="star" />
+                <p class="mb-0 text-muted">Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+              </div>             
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-lg p-4 bg-white rounded1">
+                <img  src="https://annedece.sirv.com/Images/pexels-andrea-piacquadio-839011.jpg" alt="">
+                <h5 class="pb-2 pt-3">Kevin Rich</h5><br><br><img alt="" src="Images/5star.png" class="star" />
+                <p class="mb-0 text-muted">Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+              </div>
+             
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-lg p-4 bg-white rounded1">
+                <img src="https://annedece.sirv.com/Images/pexels-stefan-stefancik-91227.jpg" alt="">
+                <h5 class="pb-2 pt-3">James Deo</h5><br><br><img alt="" src="Images/5star.png" class="star" />
+                <p class="mb-0 text-muted">Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+              </div>
+             
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-lg p-4 bg-white rounded1">
+                <img  src="https://annedece.sirv.com/Images/pexels-tim-savage-736716.jpg" alt="">
+                <h5 class="pb-2 pt-3">Sturt Billy</h5><br><br><img alt="" src="Images/5star.png" class="star" />
+                <p class="mb-0 text-muted">Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+              </div>
+              
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END OF TESTIMONIALS section6 -->
+
+  
+  <!-- section-7 -->
+  <div class="home_s7">
+    <h1><b class="txtmango">Mango</b> House</h1>
+    <p>Authen c, Original & 100% Natural Ratnagiri and Devgad Alphonso Mangoes Online.
+       Delivered to your doorsteps PAN India Shipping available.<br><br>
+       <strong><u><a href="#" class="txtleaf">WHY BUY MANGOHOUSE</a></u></strong></p>
+  </div>
+</div>
+
+  <!-- footer Start  --> 
+<div class="footer">
+  
+  <div class="row">
+    <div class="col-sm f1">
+      <h6>About Us</h1>
+      <p>
+        Mad Mangoes offers the juiciest and freshest mangoes of them all, Authentic Devgad Alphonso Mangoes Online!
+        All our mangoes are chemical-free, carbide free and handpicked from Owned farms or Partner farmers from the heart of Devgad.
+      </p>
+    </div>
+    <div class="col-sm f2">
+      <p><ul><li><strong>SITE LINKS</strong></li><li>Return Policy</li><li>Terms & Conditions</li><li>Privacy Policy</li></ul></p>
+    </div>
+    <div class="col-sm f3">
+      
+  <strong >STAY CONECTED</strong><br><br>  Subscribe to join our newsletter.<br>
+  <input placeholder="Your Email Address" 
+  style="background-color : #f8ca04;border:1px solid gray;padding:10px; border-radius: 10px;"/>
+  <span style="background-color : #f8ca04;border:1px solid gray;padding:5px 8px; border-radius: 10px;">-></span>
+  <br><br>
+  <div class="footer_media">
+    <a href="#"> <img alt="" src="Images/media_utube.png"> </a>
+    <a href="#"> <img alt="" src="Images/media_twit.png"></a>
+    <a href="#"> <img alt="" src="Images/media_fb.png"></a>
+    <a href="#"> <img alt="" src="Images/media_insta.png"> </a>
+  </div>
+    </div>
+  </div>
+</div>
+<div class="copy_right">  <p>copyright 2021 | mangohouse.com</p></div>
+   <!-- footer end -->
+
+  </body>
+</html>

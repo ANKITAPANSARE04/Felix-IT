@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Bootstrap serchbar and testimonial-->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="Images/yellowmango.jpg">
+    <title>MangoHouse</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    
+    <!-- Navigation start -->
+    <div class="topnav" id="myTopnav">      
+      <img id="logo1" src="Images/MangoHouse.png" alt="Logo" height="39" width="215">
+      <img id="logo2" src="Images/yellowmango.jpg" alt="" height="39" width="49">
+
+      <div class="nav-mid">
+        <a href="./Index.html">Home</a>
+        <a href="./About.html">About Us</a>
+        <a href="./Product1.html">Products</a>
+        <a href="./Contact.html">Contact Us</a>
+      </div>
+
+      <div class="nav-right">
+      
+        <!-- search toghle -->
+        <span class="searchbar">
+          <img  src="Images/search.png" class="search" aria-hidden="true" alt="" height="25" width="25" > &emsp;
+          <!-- <i class="fa fa-search" aria-hidden="true" height="30" width="30"></i> -->
+           <div class="togglesearch">
+              <input type="text" placeholder=""/>
+              <input type="button" value="Search"/>
+          </div>
+        </span>
+      <!-- serch toggle -->
+      <a href="./cart.html"> <img  src="Images/cart.png" alt="" height="25" width="25"> </a> &emsp;
+        <!-- Account toggler -->
+        <div class="dropdown">
+          <span onclick="myFunction()" class="dropbtn">Account⯆</span>
+          <div id="myDropdown" class="dropdown-content">
+          <a href="./signin.html"><button >Login</button></a><button>Create Account</button><br>
+          <a href="#home" ><img alt="" src="Images/dropdown_heart.PNG"> &nbsp;      Wish List</a><br>
+          <a href="#about"><img alt="" src="Images/dropdown_avatar.PNG">&nbsp;     My Account</a><br>
+          <a href="#contact"><img alt="" src="Images/dropdown_folder.PNG">&nbsp;     My Order</a>
+          </div>
+        </div>	
+      </div>
+    </div>
+    <!-- Navigation end -->
+    <!-- mobile navigation start -->
+    <div  class="icon">
+    <span class="toogler">
+      <img  src="Images/responsiveBar.PNG" class="togglebar" alt="" style="max-width: 30%;" > &emsp;
+        <div class="responsive_menu"  style="display:none;">
+          <ul>
+            <li><a href="./Index.html">Home</a></li>
+            <li><a href="./Product1.html">Buy Products</a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Why MangoHouse </a></li>
+            <li><a href="./Product1.html">Order Mangoes</a></li>
+            <li><a href="#">Gifting Solutions</a></li>
+            <li><a href="#">Mango Facts</a></li>
+            <li><a href="./Contact.html">Contact Us</a></li>
+            <li>    <!-- Account toggler -->
+              <div class="dropdown_mini">
+                <a onclick="myFunctionmini()" class="dropbtn">Account ⮟</a>
+                <div id="myDropdown_mini" class="dropdown-content2">
+                <a href="./signin.html"> <button>Login</button></a><button>Create Account</button><br>
+                <a href="#home" ><img alt="" src="Images/dropdown_heart.PNG"> &nbsp;      Wish List</a>
+                <a href="#about"><img alt="" src="Images/dropdown_avatar.PNG">&nbsp;     My Account</a>
+                <a href="#contact"><img alt="" src="Images/dropdown_folder.PNG">&nbsp;     My Order</a>
+                </div>
+              </li></ul>
+       </div>
+      </span>
+    
+    <div class="responsive-nav-mid">
+    <img id="logo1" src="Images/MangoHouse.png" alt="Logo" height="39" width="215">
+    <img id="logo2" src="Images/yellowmango.jpg" alt="" height="39" width="49">
+    </div>
+         <div class="responsive-righ-nav">
+        <span class="searchbar">
+          <img  src="Images/search.png" class="search" aria-hidden="true" alt="" height="25" width="25" > &emsp;
+            <div class="togglesearch">
+              <input type="text" placeholder=""/>
+              <input type="button" value="Search"/>
+          </div>
+          </span>
+          <a href="./cart.html"><img  src="Images/cart.png" alt="" height="25" width="25"> </a> &emsp;<br>
+        </div>             
+  </div>   
+    <!-- section-1 -->
+    <div class="about_s1">
+        <h1>RATNAGIRI DEVGAD ALPHONSO MANGOES TO YOUR DOORS</h1>
+        <div class="container">
+            
+    <div class="card">
+        <img class="card-img-top" src="Images/about1.png" alt="Card image cap">
+        <div class="card-body">
+            <p><strong>FSSAI Licensed Entity</strong><br>
+            Being licensed with FSSAI we adhere to all guidelines issued by FSSAI related to Food Safety and Standards.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="Images/about2.png" alt="Card image cap">
+        <div class="card-body">
+            <p><strong>GI Tagged "Alphonso" Mangoes from Devgad</strong><br>
+                Devgad Alphonso Mango got its very own GI Tag "Alphonso" and we are Authorised Users to supply Original Alphonso Mangoes from Devgad directly to the Consumers.</p>
+        </div>        
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="Images/about3.png" alt="Card image cap">
+        <div class="card-body">
+            <p><strong>Sourced from Own Farms</strong><br>
+            Our Mangoes are sourced from our own farms or partner Farmers and hence we guarantee our customers the best Quality fruits.</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img class="card-img-top" src="Images/about4.png" alt="Card image cap">
+        <div class="card-body">
+            <p><strong>Strict Packaging Techniques</strong><br>       
+            We follow strict packaging norms while packing our fruit as we want it to reach you in perfect state</p> 
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="Images/about5.png" alt="Card image cap">
+        <div class="card-body">
+            <p><strong>Harvested at the Right Time</strong><br>
+                We follow strict procedures to make sure we prioritize Quality over Quantity. For us, Quality comes first.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="Images/about6.png" alt="Card image cap">
+        <div class="card-body">
+            <p><strong>Carbide & Chemical Free</strong><br>
+                Our Mangoes are grown & ripen naturally and are free of any Carbides & Chemicals.</p>
+            </div>
+    </div>    
+ </div>
+</div>
+
+ <!-- Section-2 -->
+<img src="Images/homeleaf1.png" alt="" class="aboutleaf1">
+    <div class="about_s2">
+     <div class="row">
+        <div class="col-sm my-auto"><img src="Images/about7.PNG" alt="" /></div>
+        <div class="col-sm">
+            <h6> &emsp;Hails from the Heart of Devgad</h6>
+            <p>Even to call our mangoes "Devagd Alphonso" we have made sure to get the the required GI Authorised User Certification. So that YOU, our guest know that our fruit actually hails from Devgad.<br><br>
+            Our Mangoes are sourced only and only from Devgad and no other nearby places.<br><br>The Most Authentic Devgad Mango is here for you this season.<br><br>Know the difference!!</p>
+        </div>
+        </div>
+
+        <!-- row2 for desktop -->
+        <div class="row1">                  
+            <div class="col-sm" >
+                <h6>Divine Aroma and Healthy Fruit</h6><br>
+                <p>Our Fruit has an impeccable , divine aroma which is just so irrestible.<br><br>
+                    And we need not mention the power of our<br> Super Fruit which is so packed with Healthy nutrients.<br>
+                    An awesome combination of taste and health.<br><br>                
+                    <strong> SUPER FRUIT - SUPER FUN.</strong></p></div>
+            <div class="col-sm my-auto"><img src="Images/about8.PNG" alt="" /></div>           
+        </div>
+
+        <!-- row2 for responsive -->
+        <div class="row2">                  
+            <div class="col-sm" >
+                <h6>Divine Aroma and Healthy Fruit</h6><br>
+                <p>Our Fruit has an impeccable , divine aroma which is just so irrestible.<br><br>
+                    And we need not mention the power of our<br> Super Fruit which is so packed with Healthy nutrients.<br>
+                    An awesome combination of taste and health.<br><br>                
+                    <strong> SUPER FRUIT - SUPER FUN.</strong></p></div>
+            <div class="col-sm my-auto"><img src="Images/about8.PNG" alt="" /></div>           
+        </div>
+        <div class="row">
+            <div class="col-sm my-auto"><img src="Images/about9.PNG" alt="" /></div>
+            <div class="col-sm" >
+                <h6> &emsp;Reliable & Timely Shipping</h6><br>
+                <p>Our experienced Delivery Partners make sure the Fruits reach you in a perfect state and as early as possible. 
+                    Whats more... get your Mad Mangoes delivered for FREE to your Door Step.<br><br>
+                    <a href="https://youtu.be/kOQkopDU3HE">https://youtu.be/kOQkopDU3HE</a></p>
+            </div>
+
+        </div>
+    </div>
+ 
+ <img src="Images/homeleaf1.png" alt="" class="aboutleaf2">
+<!-- section-3 -->
+<div class="about_s3">
+    <img src="Images/about10.png" alt="" class="responsive"/>   
+    <div class="transferent">
+        <img src="Images/transferentDiv.png" alt="" />
+        <strong class="about_s3_txt"><h2>So no more waiting....</h2><br>Order Your Favourite Super Fruit Now..<br>
+        <button class="btn_buy">BUY IT NOW</button><br><br>   Gifting Solutions >><br>
+        <h6 class="txtleaf">Know more about Mango Facts</h6></strong>
+    </div>
+</div>
+
+<!-- section-4 -->
+<div class="about_s4">
+    <div>
+    <h1  style="text-align: center;">Health Benefits of Mangoes</h1><br>
+    <h3 class="txtleaf">MANGO NUTRITION</h3>
+    <p>In addition to the sumptuous tropical Indian tropical flavour,
+         Indian Alphonso mangoes deliver awesome nutritional value which makes it a great choice for healthy eating.</p><br>
+    <h3 class="txtleaf">NUTRIENTS IN MANGOS — THE SUPERFRUIT YOU LOVE</h3>
+    <p>A mango serving size is equivalent to 3/4 cup of sliced mangos and is just 70 calories, so it’s a satisfyingly sweet treat.<br><br>
+        There are 202 calories in 1 whole mango (without refuse and 336g).<br><br>
+        Each serving of mango is fat free, sodium free and cholesterol free.<br><br>
+        Mangos contain over 20 different vitamins and minerals, helping to make them a superfood.<br><br>
+        3/4 cup of mango provides 50% of your daily vitamin C, 4% of your daily Vitamin A and 10% of your daily vitamin B6. These nutrients in mango may help support your body’s immune system. <br><br>
+        One serving (3/4 cup) of mango contains 7% of your daily fiber. It’s a delicious and fun way to get some fiber in your diet.<br><br>
+        3/4 cup of mango is also a good source of folate, making up 15% of your daily requirement and also of copper, making up 4% of your daily needs.<br><br>
+        There are 17g of carbohydrates in a 3/4 cup  serving of an Indian Alphonso mango, making up 7% of your daily value. Give your body a delicious and super fun super fruit!<br></p>
+    </div>
+
+    <!-- Desktop row -->
+    <div class="row1">
+        <div class="col-sm"><img alt="" src="Images/about11.png" /></div>
+        <div class="col-sm">Calories: 99<br>Protein: 1.4 grams<br>Carbs: 24.7 grams<br> Fat: 0.6 grams<br>
+            Dietary fiber: 2.6 grams<br>Vitamin C: 67% of the Reference Daily Intake<br>   Copper: 20% of the RDI<br>
+            Folate: 18% of the RDI<br>  Vitamin B6: 11.6% of the RDI<br>  Vitamin A: 10% of the RDI<br>
+            Vitamin E: 9.7% of the RDI</div>
+    </div>
+    <div style="display: flex;justify-content: space-around;"><button>BUY IT NOW !!</button></div>
+
+    <!-- mobile row -->
+    
+    <div class="flex-column-reverse">
+        <div class="col-sm">Calories: 99<br>Protein: 1.4 grams<br>Carbs: 24.7 grams<br> Fat: 0.6 grams<br>
+            Dietary fiber: 2.6 grams<br>Vitamin C: 67% of the Reference Daily Intake<br>   Copper: 20% of the RDI<br>
+            Folate: 18% of the RDI<br>  Vitamin B6: 11.6% of the RDI<br>  Vitamin A: 10% of the RDI<br>
+            Vitamin E: 9.7% of the RDI</div>
+            <div class="col-sm"><img alt="" src="Images/about11.png" /></div>
+    </div>
+
+</div>
+
+<!-- section-5 -->
+<div class="about_s5"><img alt="" src="Images/about12.png" />
+<img alt="" src="Images/about13.png" class="about_s4_img13"/></div>
+
+
+<!-- footer -->
+<div class="footer">
+  
+    <div class="row">
+      <div class="col-sm f1">
+        <h6>About Us</h1>
+        <p>
+          Mad Mangoes offers the juiciest and freshest mangoes of them all, Authentic Devgad Alphonso Mangoes Online!
+          All our mangoes are chemical-free, carbide free and handpicked from Owned farms or Partner farmers from the heart of Devgad.
+        </p>
+      </div>
+      <div class="col-sm f2">
+        <p><ul><li><strong>SITE LINKS</strong></li><li>Return Policy</li><li>Terms & Conditions</li><li>Privacy Policy</li></ul></p>
+      </div>
+      <div class="col-sm f3">
+        
+    <strong >STAY CONECTED</strong><br><br>  Subscribe to join our newsletter.<br>
+    <input placeholder="Your Email Address" 
+    style="background-color : #f8ca04;border:1px solid gray;padding:10px; border-radius: 10px;"/>
+    <span style="background-color : #f8ca04;border:1px solid gray;padding:5px 8px; border-radius: 10px;">-></span>
+    <br><br>
+    <div class="footer_media">
+      <a href="#"> <img alt="" src="Images/media_utube.png"> </a>
+      <a href="#"> <img alt="" src="Images/media_twit.png"></a>
+      <a href="#"> <img alt="" src="Images/media_fb.png"></a>
+      <a href="#"> <img alt="" src="Images/media_insta.png"> </a>
+    </div>
+      </div>
+    </div>
+  </div>
+  <div class="copy_right">  <p>copyright 2021 | mangohouse.com</p></div>
+    </body>
+  </html>
+  

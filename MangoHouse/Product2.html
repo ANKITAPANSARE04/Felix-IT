@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Bootstrap -->
+    <!-- Account toggle --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- testimonial purpose -->    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="Images/yellowmango.jpg">
+    <title>MangoHouse</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    
+    <!-- Navigation start -->
+    <div class="topnav" id="myTopnav">      
+      <img id="logo1" src="Images/MangoHouse.png" alt="Logo" height="39" width="215">
+      <img id="logo2" src="Images/yellowmango.jpg" alt="" height="39" width="49">
+
+      <div class="nav-mid">
+        <a href="./Index.html">Home</a>
+        <a href="./About.html">About Us</a>
+        <a href="./Product1.html">Products</a>
+        <a href="./Contact.html">Contact Us</a>
+      </div>
+
+      <div class="nav-right">
+      
+        <!-- search toghle -->
+        <span class="searchbar">
+          <img  src="Images/search.png" class="search" aria-hidden="true" alt="" height="25" width="25" > &emsp;
+          <!-- <i class="fa fa-search" aria-hidden="true" height="30" width="30"></i> -->
+           <div class="togglesearch">
+              <input type="text" placeholder=""/>
+              <input type="button" value="Search"/>
+          </div>
+        </span>
+      <!-- serch toggle -->
+      <a href="./cart.html"> <img  src="Images/cart.png" alt="" height="25" width="25"> </a> &emsp;
+        <!-- Account toggler -->
+        <div class="dropdown">
+          <span onclick="myFunction()" class="dropbtn">Account⯆</span>
+          <div id="myDropdown" class="dropdown-content">
+          <a href="./signin.html"><button >Login</button></a><button>Create Account</button><br>
+          <a href="#home" ><img alt="" src="Images/dropdown_heart.PNG"> &nbsp;      Wish List</a><br>
+          <a href="#about"><img alt="" src="Images/dropdown_avatar.PNG">&nbsp;     My Account</a><br>
+          <a href="#contact"><img alt="" src="Images/dropdown_folder.PNG">&nbsp;     My Order</a>
+          </div>
+        </div>	
+      </div>
+    </div>
+    <!-- Navigation end -->
+    <!-- mobile navigation start -->
+    <div  class="icon">
+    <span class="toogler">
+      <img  src="Images/responsiveBar.PNG" class="togglebar" alt="" style="max-width: 30%;" > &emsp;
+        <div class="responsive_menu"  style="display:none;">
+          <ul>
+            <li><a href="./Index.html">Home</a></li>
+            <li><a href="./Product1.html">Buy Products</a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Why MangoHouse </a></li>
+            <li><a href="./Product1.html">Order Mangoes</a></li>
+            <li><a href="#">Gifting Solutions</a></li>
+            <li><a href="#">Mango Facts</a></li>
+            <li><a href="./Contact.html">Contact Us</a></li>
+            <li>    <!-- Account toggler -->
+              <div class="dropdown_mini">
+                <a onclick="myFunctionmini()" class="dropbtn">Account ⮟</a>
+                <div id="myDropdown_mini" class="dropdown-content2">
+                <a href="./signin.html"> <button>Login</button></a><button>Create Account</button><br>
+                <a href="#home" ><img alt="" src="Images/dropdown_heart.PNG"> &nbsp;      Wish List</a>
+                <a href="#about"><img alt="" src="Images/dropdown_avatar.PNG">&nbsp;     My Account</a>
+                <a href="#contact"><img alt="" src="Images/dropdown_folder.PNG">&nbsp;     My Order</a>
+                </div>
+              </li></ul>
+       </div>
+      </span>
+    
+    <div class="responsive-nav-mid">
+    <img id="logo1" src="Images/MangoHouse.png" alt="Logo" height="39" width="215">
+    <img id="logo2" src="Images/yellowmango.jpg" alt="" height="39" width="49">
+    </div>
+         <div class="responsive-righ-nav">
+        <span class="searchbar">
+          <img  src="Images/search.png" class="search" aria-hidden="true" alt="" height="25" width="25" > &emsp;
+            <div class="togglesearch">
+              <input type="text" placeholder=""/>
+              <input type="button" value="Search"/>
+          </div>
+          </span>
+          <a href="./cart.html"><img  src="Images/cart.png" alt="" height="25" width="25"> </a> &emsp;<br>
+        </div>             
+  </div>   
+<!-- section-1 -->
+
+<img alt="" class="product2_leaf1" src="Images/homeleaf1.png" />
+<div class="product2_body">
+    <h1>ORDER your favourite SUPER-FRUIT now !</h1>
+
+    <div class="product2_s1 ">
+        <div class="r1">
+            <div class="shopcard">
+                <!-- use repeat row to add item of requie -->
+                <div class="row ">
+                    <div class="col-sm c1">
+                        <strong class="mangotxt">KING A</strong><br>
+                        <img alt="" src="Images/mangopair.png" ><br>
+                        <strong>Fruit Weight-225-250gms</strong>
+                    </div>
+                    <div class="col-sm c2">
+                        <strong>Fruit Grade-"King A" Premium Authentic Mango Keshar</strong><br>
+                        <span class="txtdanger">₹1,470.00</span> &emsp;<span>₹2,100.00 </span><br><br>
+                        <p>Naturally Ripened Fruit<br>  No Chemical<br>    No Carbide<br>
+                        Strict Quality Control & Check<br>       Origin from Devgad</p>
+                        Sizes<br>
+                        <img alt="" src="Images/minimango.png">
+                        <img alt="" src="Images/minimango.png">
+                        <img alt="" src="Images/minimango.png"><br><br>
+                        Quantity(in Dozen)<br>
+                        <span class="count"> - 1 + </span><br><br>
+                        <a href="./cart.html"><button>BUY IT NOW</button></a>
+                    </div> 
+                </div>
+            </div>
+            <div  class="sidediv">
+                <div class="container c3">
+                    <div><img alt="" src="Images/truck.png" /><br>shipping fee rs.50</div>
+                    <div><img alt="" src="Images/exchange.png" style="margin: 5px;"/><br>Return/Replace not allowed</div>
+                    <div><img alt="" src="Images/cancellation.png" style="margin: 5px;"/><br>Cancellation Allowed</div>
+                </div><br>
+                <div class="container c4">
+                    <h6>Customer Ratings & Reviews  </h6>
+                    <p><span style="background-color: yellow; padding: 2px;"> 4.5☆</span> 20,000 Ratings and 10,000 Reviews</p><br>
+                    <hr>
+                    <div>
+                    <img alt="" class="my-auto" src="Images/avatar.png">
+                    <p><strong>sharada Nehwal</strong><br>
+                    Amazing taste.<br>
+                    I ordered 2Dz and it got deliver in time.<br>
+                    <img alt="" src="Images/5star.png" ></p></div><br>
+                
+                    <hr>
+                    <div>
+                    <img alt=""  class="my-auto" src="Images/avatar.png">
+                    <p><strong>sharada Nehwal</strong><br>
+                    Amazing taste.<br>
+                    I ordered 2Dz and it got deliver in time.<br>
+                    <img alt="" src="Images/5star.png" ></p></div><br>                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section-2 -->
+    <div class="product2_s2">
+        <div class="home_s4">
+            <h1 style="margin-top: 30px;">YOU MAY ALSO LIKE</h1> 
+         
+            
+            <div class="product_collection">
+
+                <div class="card"> 
+                    <h5 class="card-title text-center">KING A1+</h5>
+                        <!--<span class="heart"></span>--><br>  
+                        <img  class="card-img-top " src="Images/mangopair.png" alt=""> 
+                        <p class="card-text"><strong>Mango pulp (Coming soon)</strong><br>
+                        Fruit Grade- "King A1+" Premium  Authentic Devgad Alphonso Mangoes 1 Dozen<br></p>
+                        <table>
+                            <tr><td><strong class="txtdanger">₹1,750.00</strong> <strong>₹2,5000.00</strong></td>
+                            <td><img class="cartshare" src="Images/share.png" alt=""></td></tr>
+                            <tr><td><img class="cartstar" src="Images/5star.png" alt="">  </td>
+                            <td><img class="cartadd" src="Images/addtocart.png" alt=""> </td></tr>
+                        </table>
+                </div>
+
+                <div class="card"> 
+                    <h5 class="card-title text-center">KING A1+</h5>
+                        <!--<span class="heart"></span>--><br>  
+                        <img  class="card-img-top " src="Images/product2_cart1.png" alt=""> 
+                        <p class="card-text"><strong>Mango Jam (Coming Soon)</strong></p>
+                        <table>
+                            <tr><td><strong class="txtdanger">₹1,750.00</strong> <strong>₹2,5000.00</strong></td>
+                            <td><img class="cartshare" src="Images/share.png" alt=""></td></tr>
+                            <tr><td><img class="cartstar" src="Images/5star.png" alt="">  </td>
+                            <td><img class="cartadd" src="Images/addtocart.png" alt=""> </td></tr>
+                        </table>           
+                </div>
+
+                <div class="card"> 
+                    <h5 class="card-title text-center">KING A1+</h5>
+                        <!--<span class="heart"></span>--><br>  
+                        <img  class="card-img-top " src="Images/product2_cart2.png" alt=""> 
+                        <p class="card-text"><strong>Faruit Weight-300+gms</strong><br>
+                        Fruit Grade- "King A1+" Premium  Authentic Devgad Alphonso Mangoes 1 Dozen<br></p>
+                        <table>
+                            <tr><td><strong class="txtdanger">₹1,750.00</strong> <strong>₹2,5000.00</strong></td>
+                            <td><img class="cartshare" src="Images/share.png" alt=""></td></tr>
+                            <tr><td><img class="cartstar" src="Images/5star.png" alt="">  </td>
+                            <td><img class="cartadd" src="Images/addtocart.png" alt=""> </td></tr>
+                        </table>                
+                </div>    
+
+            <br>
+        </div>    
+    </div>
+    </div>
+</div>
+  <!-- footer Start  --> 
+  <div class="footer">
+  
+    <div class="row">
+      <div class="col-sm f1">
+        <h6>About Us</h1>
+        <p>
+          Mad Mangoes offers the juiciest and freshest mangoes of them all, Authentic Devgad Alphonso Mangoes Online!
+          All our mangoes are chemical-free, carbide free and handpicked from Owned farms or Partner farmers from the heart of Devgad.
+        </p>
+      </div>
+      <div class="col-sm f2">
+        <p><ul><li><strong>SITE LINKS</strong></li><li>Return Policy</li><li>Terms & Conditions</li><li>Privacy Policy</li></ul></p>
+      </div>
+      <div class="col-sm f3">
+        
+    <strong >STAY CONECTED</strong><br><br>  Subscribe to join our newsletter.<br>
+    <input placeholder="Your Email Address" 
+    style="background-color : #f8ca04;border:1px solid gray;padding:10px; border-radius: 10px;"/>
+    <span style="background-color : #f8ca04;border:1px solid gray;padding:5px 8px; border-radius: 10px;">-></span>
+    <br><br>
+    <div class="footer_media">
+      <a href="#"> <img alt="" src="Images/media_utube.png"> </a>
+      <a href="#"> <img alt="" src="Images/media_twit.png"></a>
+      <a href="#"> <img alt="" src="Images/media_fb.png"></a>
+      <a href="#"> <img alt="" src="Images/media_insta.png"> </a>
+    </div>
+      </div>
+    </div>
+  </div>
+  <div class="copy_right">  <p>copyright 2021 | mangohouse.com</p></div>
+     <!-- footer end -->
+  
+    </body>
+  </html>
+  

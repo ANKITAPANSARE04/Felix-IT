@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Bootstrap -->
+    <!-- Account toggle --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- testimonial purpose -->    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="Images/yellowmango.jpg">
+    <title>MangoHouse</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    
+    <!-- Navigation start -->
+    <div class="topnav" id="myTopnav">      
+      <img id="logo1" src="Images/MangoHouse.png" alt="Logo" height="39" width="215">
+      <img id="logo2" src="Images/yellowmango.jpg" alt="" height="39" width="49">
+
+      <div class="nav-mid">
+        <a href="./Index.html">Home</a>
+        <a href="./About.html">About Us</a>
+        <a href="./Product1.html">Products</a>
+        <a href="./Contact.html">Contact Us</a>
+      </div>
+
+      <div class="nav-right">
+      
+        <!-- search toghle -->
+        <span class="searchbar">
+          <img  src="Images/search.png" class="search" aria-hidden="true" alt="" height="25" width="25" > &emsp;
+          <!-- <i class="fa fa-search" aria-hidden="true" height="30" width="30"></i> -->
+           <div class="togglesearch">
+              <input type="text" placeholder=""/>
+              <input type="button" value="Search"/>
+          </div>
+        </span>
+      <!-- serch toggle -->
+      <a href="./cart.html"> <img  src="Images/cart.png" alt="" height="25" width="25"> </a> &emsp;
+        <!-- Account toggler -->
+        <div class="dropdown">
+          <span onclick="myFunction()" class="dropbtn">Account⯆</span>
+          <div id="myDropdown" class="dropdown-content">
+          <a href="./signin.html"><button >Login</button></a><button>Create Account</button><br>
+          <a href="#home" ><img alt="" src="Images/dropdown_heart.PNG"> &nbsp;      Wish List</a><br>
+          <a href="#about"><img alt="" src="Images/dropdown_avatar.PNG">&nbsp;     My Account</a><br>
+          <a href="#contact"><img alt="" src="Images/dropdown_folder.PNG">&nbsp;     My Order</a>
+          </div>
+        </div>	
+      </div>
+    </div>
+    <!-- Navigation end -->
+    <!-- mobile navigation start -->
+    <div  class="icon">
+    <span class="toogler">
+      <img  src="Images/responsiveBar.PNG" class="togglebar" alt="" style="max-width: 30%;" > &emsp;
+        <div class="responsive_menu"  style="display:none;">
+          <ul>
+            <li><a href="./Index.html">Home</a></li>
+            <li><a href="./Product1.html">Buy Products</a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Why MangoHouse </a></li>
+            <li><a href="./Product1.html">Order Mangoes</a></li>
+            <li><a href="#">Gifting Solutions</a></li>
+            <li><a href="#">Mango Facts</a></li>
+            <li><a href="./Contact.html">Contact Us</a></li>
+            <li>    <!-- Account toggler -->
+              <div class="dropdown_mini">
+                <a onclick="myFunctionmini()" class="dropbtn">Account ⮟</a>
+                <div id="myDropdown_mini" class="dropdown-content2">
+                <a href="./signin.html"> <button>Login</button></a><button>Create Account</button><br>
+                <a href="#home" ><img alt="" src="Images/dropdown_heart.PNG"> &nbsp;      Wish List</a>
+                <a href="#about"><img alt="" src="Images/dropdown_avatar.PNG">&nbsp;     My Account</a>
+                <a href="#contact"><img alt="" src="Images/dropdown_folder.PNG">&nbsp;     My Order</a>
+                </div>
+              </li></ul>
+       </div>
+      </span>
+    
+    <div class="responsive-nav-mid">
+    <img id="logo1" src="Images/MangoHouse.png" alt="Logo" height="39" width="215">
+    <img id="logo2" src="Images/yellowmango.jpg" alt="" height="39" width="49">
+    </div>
+         <div class="responsive-righ-nav">
+        <span class="searchbar">
+          <img  src="Images/search.png" class="search" aria-hidden="true" alt="" height="25" width="25" > &emsp;
+            <div class="togglesearch">
+              <input type="text" placeholder=""/>
+              <input type="button" value="Search"/>
+          </div>
+          </span>
+          <a href="./cart.html"><img  src="Images/cart.png" alt="" height="25" width="25"> </a> &emsp;<br>
+        </div>             
+  </div>   
+<!-- contact us start -->
+<div class="contact_us">
+    <h1>Contact Us</h1>
+    <hr><br>
+    <p>unit No.465, MH Housing,<br>Ali Yavar Jung Marg,Malad(East),<br>
+    Mumbai - 400097<br>Email:wecare@madmangoes.in<br>Phone: +91 8268555558</p>
+        <br><br><hr><br>
+    <strong>Write to us at</strong><br><br>
+    <input type="text" class="inputfield" placeholder="First Name"><br>
+    <input type="text" class="inputfield" placeholder="Last Name"><br>
+    <input type="text" class="inputfield" placeholder="Subject"><br>
+    <input type="text" class="inputfield" placeholder="Address"><br>
+    <input type="text" class="inputfield" placeholder="E-mail"><br>
+    <input type="text" class="inputfield" placeholder="PhoneNumber"><br>
+    <textarea type="text" class="inputfield" placeholder="Message"></textarea><br>
+        <button class="gray_btn">Send</button>
+
+    <br><br><br>
+    <a href="">Refund policy</a>&emsp;
+    <a href="">Shipping policy</a>&emsp;
+    <a href="">Privacy policy</a>&emsp;
+    <a href="">Terms of service</a>&emsp;    
+</div>
+<img alt="" src="Images/homeleaf1.png" class="contact_leaf" />
+
+
+  <!-- footer Start  --> 
+  <div class="footer">
+  
+    <div class="row">
+      <div class="col-sm f1">
+        <h6>About Us</h1>
+        <p>
+          Mad Mangoes offers the juiciest and freshest mangoes of them all, Authentic Devgad Alphonso Mangoes Online!
+          All our mangoes are chemical-free, carbide free and handpicked from Owned farms or Partner farmers from the heart of Devgad.
+        </p>
+      </div>
+      <div class="col-sm f2">
+        <p><ul><li><strong>SITE LINKS</strong></li><li>Return Policy</li><li>Terms & Conditions</li><li>Privacy Policy</li></ul></p>
+      </div>
+      <div class="col-sm f3">
+        
+    <strong >STAY CONECTED</strong><br><br>  Subscribe to join our newsletter.<br>
+    <input placeholder="Your Email Address" 
+    style="background-color : #f8ca04;border:1px solid gray;padding:10px; border-radius: 10px;"/>
+    <span style="background-color : #f8ca04;border:1px solid gray;padding:5px 8px; border-radius: 10px;">-></span>
+    <br><br>
+    <div class="footer_media">
+      <a href="#"> <img alt="" src="Images/media_utube.png"> </a>
+      <a href="#"> <img alt="" src="Images/media_twit.png"></a>
+      <a href="#"> <img alt="" src="Images/media_fb.png"></a>
+      <a href="#"> <img alt="" src="Images/media_insta.png"> </a>
+    </div>
+      </div>
+    </div>
+  </div>
+  <div class="copy_right">  <p>copyright 2021 | mangohouse.com</p></div>
+     <!-- footer end -->
+  
+    </body>
+  </html>
+  
